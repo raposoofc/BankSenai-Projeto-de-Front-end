@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #638181, #d6e2e0);
+}
+
+.form-box{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+h1{
+    margin: 30px;
+    color: #203435;
+}
+
+#login-user, #login-password{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px #638181 solid;
+    padding: 20px;
+}
+button{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px #638181 solid;
+    background-color: #638181;
+    color: aliceblue;
+   
+}
+
+
+
+.criar_conta{
+    height: 50px;
+    width: 160px;
+    padding: 15px;
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+.esqueci_senha{
+    height: 50px;
+    width: 160px;
+    padding: 11.5px;
+    text-align: center;
+    background-color: palegoldenrod;
+    font-size: 14px;
+   
+    
+
+
+
+}
+.div_buttons{
+display: flex ;
+gap: 10px;
+
+}
