@@ -1,0 +1,210 @@
+/* Paleta de cores */
+    /* --grama: #5E7C16;
+    --bau: #8B5A2B;
+    --pedra: #7D7D7D;
+    --diamante: #33C5F0;
+    --areia: #D7C79F; */
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/fonte/Minecraftia-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraftia', sans-serif;
+    font-size: 20px;
+    font-weight: 00;
+    
+}
+body{
+    background-image:linear-gradient(to right, 	#5E7C16, #D7C79F);
+    color: #000000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 100px;
+    
+
+    
+}
+
+.logo-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 500px;
+        height: 100vh; /* usa toda a altura da tela */
+        padding: 0;
+        margin: 0;
+        margin-bottom: 5%;
+        margin-right: 25%;
+}
+
+/*  Titulo */
+
+.text h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #5E7C16 10px 10px 10px;
+ 
+  }
+/* Parágrafo */
+.p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #5E7C16 10px 10px 10px;
+    padding-top: 50px;
+}
+
+
+/* Login */
+.Login{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+    
+    
+}
+/* Entrar */
+.button1{
+    width: 400px;
+    height: 50px;
+    background-color: #5E7C16;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    
+
+    
+}
+button:hover{
+    background-color: #33C5F0;
+    transition: 0.5s;
+    color: #ffffff;
+    
+
+}    
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.button-grupo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+/* Criar conta */
+.button2{
+    width: 200px;
+    height: 50px;
+    background-color: #5E7C16;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+
+    
+    
+}
+.button2:hover{
+    background-color: #8B5A2B;
+    transition: 0.5s;
+    
+}
+/* Senha */
+.button3{ 
+    width: 180px;
+    height: 50px;
+    background-color: #5E7C16;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    
+
+}
+.button3:hover{
+    background-color: #8B5A2B;
+    transition: 0.5s;
+    
+}
+
+
