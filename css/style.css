@@ -16,7 +16,7 @@
     box-sizing: border-box;
     font-family: 'Minecraftia', sans-serif;
     font-size: 20px;
-    font-weight: 00;
+    font-weight: 0;
     
 }
 /* Estilo do body */
@@ -105,7 +105,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    text-shadow: 2px 2px 4px #000000;
 
 
 
