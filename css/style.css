@@ -21,7 +21,9 @@
 }
 /* Estilo do body */
 body{
-    background: linear-gradient(to right, #5E7C16 60%, #D7C79F 50%);
+    background:
+    linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 30%),
+    linear-gradient(to right, #5E7C16 60%, #D7C79F 50%);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -144,7 +146,7 @@ input{
     
 }
 button:hover{
-    background-color: #33C5F0;
+    background-color: #42adb4;
     transition: 0.5s;
     color: #ffffff;
     
@@ -171,7 +173,7 @@ a{
 .button2{
     width: 200px;
     height: 50px;
-    background-color: #5E7C16;
+    background-color: #be7a39;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -197,7 +199,7 @@ a{
 .button3{ 
     width: 180px;
     height: 50px;
-    background-color: #5E7C16;
+    background-color: #be7a39;
     color: #ffffff;
     border: none;
     border-radius: 5px;
