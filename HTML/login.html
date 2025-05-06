@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - BankSenai</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="container-form">
+      <img id="logo" src="/imagens/Logo BankSenai.png" alt="Logo do Banco Digital">
+
+      <!-- Formulário de login com ids corretos -->
+      <form id="formulario">
+        <div class="form-box">
+
+          <!-- Campo de e-mail -->
+          <div class="e-mail">
+            <label for="login-user">E-mail</label>
+            <input type="email" id="login-user" placeholder="E-mail" /> 
+          </div>
+
+          <!-- Campo de senha -->
+          <div class="senha">
+            <label for="login-password">Senha</label>
+            <input type="password" id="login-password" placeholder="Senha" />
+          </div>
+
+          <!-- Botão para login -->
+          <div id="entrar">
+            <button type="submit">Entrar</button>
+          </div>
+
+          <!-- Botões de criar conta e recuperar senha -->
+          <div class="div_buttons">
+            <div class="criar_conta">
+              <p id="texto-criarconta">
+                <a class="cadastro" href="registro.html">Criar conta</a>
+              </p>
+            </div>
+            <div class="esqueci_senha">
+              <p id="texto-cadastro">
+                <a class="cadastro" href="recuperar.html">Esqueci minha senha</a>
+              </p>
+            </div>
+          </div>
+          <p id="messageError"></p>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script de validação de login -->
+  <script src="/JavaScript/login.js"></script>
+</body>
+</html>

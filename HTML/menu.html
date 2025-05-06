@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - BankSenai</title>
+  <link rel="stylesheet" href="/CSS/style.css" />
+</head>
+<body>
+  <div class="container">
+    <img id="logo-2" src="/imagens/logo.png" alt="">
+    <div class="textos"><h1>Bem-vindo(a), <span id="user-name"></span></h1>
+      <h1>Seu saldo atual é <span id="valor"></span></h1></div>
+    
+
+    <!-- Caixa que agrupa os botões do menu -->
+    <div class="form-box">
+  
+    <!-- Botão para ir para a página de depósito -->
+    <button onclick="irPara('deposito.html')">Depósito</button>
+  
+    <!-- Botão para ir para a página de saque -->
+    <button onclick="irPara('saque.html')">Saque</button>
+  
+    <!-- Botão para ir para a página de transferência -->
+    <button onclick="irPara('transferencia.html')">Transferência</button>
+  
+    <!-- Botão para sair do sistema -->
+    <button onclick="irPara('login.html')">Sair</button>
+    
+  </div>
+  
+
+  <script src="/JavaScript/menu.js"></script>
+</body>
+</html>

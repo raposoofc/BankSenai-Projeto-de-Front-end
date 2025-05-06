@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Reset e configurações base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #131c44;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 10px;
+}
+
+#logo{
+  width: 168px;
+  margin-bottom: 20px;
+}
+
+#logo-2{
+  width: 170px;
+}
+
+.textos{
+  height: 80px;
+  margin-bottom: 20px;
+
+}
+
+#user-name{
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+
+/* Título principal */
+h1 {
+  color: #f0d8a0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Caixa do formulário */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c275b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+/* Inputs e Botões */
+input,
+button {
+  width: 100%;
+  max-width: 325px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #b88d2b;
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Estilo específico para botões */
+button {
+  background-color: #ae8529;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c49c3b;
+}
+
+/* Estilo específico para o botão "Entrar" */
+#entrar {
+  width: 100%;
+  max-width: 325px;
+}
+
+/* Labels */
+label {
+  color: #e1bd62;
+  align-self: flex-start;
+}
+
+/* Estilo para campos de e-mail e senha */
+.e-mail,
+.senha {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+/* Botões adicionais */
+.criar_conta,
+.esqueci_senha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  max-width: 157px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.criar_conta {
+  background-color: #ae8529;
+  color: #ffffff;
+}
+
+.esqueci_senha {
+  background-color: #ffffff;
+  font-size: 14px;
+  border: 2px solid #ae8529;
+  color: #ae8529;
+  padding: 11.5px;
+}
+
+/* Container para os botões adicionais */
+.div_buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Container do formulário */
+.container-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #131c44;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Título do container do formulário */
+#h1-containerform {
+  text-align: center;
+  color: #f0d8a0;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Valor em destaque */
+#valor {
+  color: green;
+  font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  h1,
+  #h1-containerform {
+    font-size: 1.5rem;
+  }
+
+  .form-box {
+    padding: 20px;
+  }
+
+  input,
+  button {
+    font-size: 0.9rem;
+  }
+
+  .criar_conta,
+  .esqueci_senha {
+    max-width: 100%;
+  }
+}
